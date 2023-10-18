@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Old Wikipedia Layout
-// @version      0.1
+// @version      0.2
 // @description  Redirects Wikipedia to use the good (pre-2023) skin.
 // @author       Pedrokinha, Sheer Anger
 // @match        *://*.wikipedia.org/*
+// @downloadURL  https://github.com/pedrohiiq/userscript-test/blob/master/user.js
 // @icon         https://www.google.com/s2/favicons?domain=www.wikipedia.org
 // @grant        none
 // @license      MIT
@@ -14,7 +15,7 @@
 const SKIN_CHOICE = 'vector';
 
 function hasSkin(url) {
-  return !!url.match(/(?=.*useskin)^(https?:\/\/)?(www\.)?(\w{2,6}\.)(m\.)?wikipedia\.org(\/.*)$/)
+  return url.match(/(?<!\#.*)\?.*&?useskin=/);
 }
 
 function applySkin(url) {
