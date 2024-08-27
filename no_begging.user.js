@@ -3,8 +3,8 @@
 // @description Removes the wikipedia fundraiser banners
 // @match       *://*.wikipedia.org/*
 // @run-at      document-body
-// @version     0.02
-// @icon        https://www.google.com/s2/favicons?domain=en.wikipedia.org
+// @version     0.021
+// @downloadURL	https://pedrohiiq.github.io/userscript-test/no_begging.user.js
 // @author      silvasur, pedrokinha
 // ==/UserScript==
 

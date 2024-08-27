@@ -4,9 +4,7 @@
 // @description  Redirects Wikipedia to use the good (pre-2023) skin.
 // @author       Pedrokinha, Sheer Anger
 // @match        *://*.wikipedia.org/*
-// @downloadURL  https://pedrohiiq.github.io/userscript-test/user.js
-// @updateURL    https://pedrohiiq.github.io/userscript-test/user.js
-// @icon         https://www.google.com/s2/favicons?domain=www.wikipedia.org
+// @downloadURL  https://pedrohiiq.github.io/userscript-test/old_layout.js
 // @grant        none
 // @license      MIT
 // @inject-into  page
