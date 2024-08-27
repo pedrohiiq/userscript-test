@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Old Wikipedia Layout
-// @version      0.2.1
+// @version      0.2.2
 // @description  Redirects Wikipedia to use the good (pre-2023) skin.
 // @author       Pedrokinha, Sheer Anger
 // @match        *://*.wikipedia.org/*
-// @downloadURL  https://pedrohiiq.github.io/userscript-test/old_layout.js
+// @downloadURL  https://pedrohiiq.github.io/userscript-test/old_layout.user.js
 // @grant        none
 // @license      MIT
 // @inject-into  page
